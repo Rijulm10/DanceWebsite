@@ -1,0 +1,51 @@
+doctype html
+html
+  head
+    title Bharatnatyam Academy by Aniket Banerjee
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+      ul
+        #logo 
+          img(src="/static/download-removebg-preview.png")
+          .p 
+            | BHARATNATYAM ACADEMY
+        #buttons
+          li #[a(href="/") Home] 
+          li #[a(href="/") About]
+          li #[a(href="/") Classes Info]
+          li #[a(href="/") Contact Us]
+
+    section#introSection 
+      .e WELCOME TO BHARATNATYAM ACADEMY 
+      .h भरतनाट्यम अकादमी में आपका स्वागत है
+      .b ভারতনাট্যম একাডেমিতে স্বাগতম
+
+    section#pictureSection
+      .card
+        h3 Our Mission:-
+        p The mission of Bharatnatyam Academy is to inspire and nurture a passion for dance by providing high-quality training, fostering creativity, and promoting self-expression. Through a supportive and inclusive environment, the academy aims to develop dancers' technical skills, artistic abilities, and a lifelong appreciation for the art of dance.
+      .card#ab 
+        h3 Our Vision:-
+        p The vision of Bharatnatyam Academy is to be a leading center of excellence in dance education, shaping versatile and confident dancers. It aspires to cultivate a community where artistic expression, innovation, and a deep appreciation for dance converge, creating a legacy of accomplished and empowered performers who contribute to the richness of the dance world.
+
+    section#sponsorSection
+      h2.sp Our Sponsors:-
+      #sponsors 
+        img(src="/static/google.png", alt="google", class="spImage")
+        img(src="/static/pug.png", alt="pug", class="spImage")
+        img(src="/static/hp.png", alt="hp", class="spImage2")
+        img(src="/static/microsoft.png", alt="microsoft", class="spImage3")
+        img(src="/static/node.png", alt="node", class="spImage5")
+        img(src="/static/post.png", alt="post", class="spImage4")
+        img(src="/static/vs1.png", alt="vs1", class="spImage6")
+        img(src="/static/exp.png", alt="exp", class="spImage1")
+
+
+    footer#footer 
+      p Copyright © 2024 Bharatnatyamacademy.com | All rights reserved
+      p - by Aniket Banerjee
+
+    script
+      include ../static/index.js
