@@ -1,0 +1,5 @@
+touch .gitignore
+git init
+git add .
+git commin -m "Initial Commit"
+git status
